@@ -1,0 +1,57 @@
+body {
+    background-color: #d2d2d2;
+}
+
+.container {
+    background: white;
+    padding: 0;
+    min-height: 600px;
+}
+
+.logoCtn {
+    padding: 10px 0 10px 20px;
+    float: left;
+}
+
+.navbar {
+    background: #fff;
+    border-radius: 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.companyName {
+    float: left;
+    font-size: 36px;
+    color: #d81b12;
+    font-weight: bold;
+    margin: 10px 0 0 18px;
+}
+
+@media(min-width: 768) {
+    .companyName {
+        margin: 38px 0 0 30px;
+    }
+}
+
+.main {
+    width: 100%;
+    float: left;
+}
+
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 70%;
+    }
+    .sidebar {
+        width: 30%;
+        float: left;
+        display: block;
+    }
+}
