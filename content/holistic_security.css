@@ -1,5 +1,7 @@
 body {
-    background-color: #e47670;
+    /*background-color: #e47670;*/
+    background: url("../material/Training Area Panorama.JPG");
+    background-size: cover;
 }
 
 .container {
@@ -28,7 +30,7 @@ body {
     font-size: 36px;
     color: #d81b12;
     font-weight: bold;
-    margin: 10px 0 0 18px;
+    margin: 18px 0 0 18px;
 }
 
 @media(min-width: 768) {
@@ -49,6 +51,7 @@ body {
 @media (min-width: 768px) {
     .main {
         width: 70%;
+        padding-right: 20px;
     }
     .sidebar {
         width: 30%;
@@ -73,3 +76,18 @@ h1 {
     font-weight: bold;
     margin: 0 0 30px 0;
 }
+
+.sidebar {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sidebar img {
+    text-align: center;
+    width: 80%;
+    margin: 0 0 10px 0;
+}
+
+
+
+
